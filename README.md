@@ -8,4 +8,4 @@ You need to have anaconda installed. Install it if you still have not done it fo
 
 ### step 2: create a virtual environment with python=3.6 cudnn cupti
 
-open your terminal and type ´conda create -n your_env_name python=3.6 cudnn cupti cudatoolkit=10.0´
+open your terminal and type `conda create -n your_env_name python=3.6 cudnn cupti cudatoolkit=10.0`
