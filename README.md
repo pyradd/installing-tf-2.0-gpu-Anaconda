@@ -6,9 +6,11 @@ How to install tensorflow 2.0 gpu in your anaconda environment and run the first
 ### Step 1:
 You need to have anaconda installed. Install it if you still have not done it following [this](https://docs.anaconda.com/anaconda/install/) or some other link as you wish.
 
-### step 2: create a virtual environment with python=3.6 cudnn cupti
+### step 2: create a virtual environment with python=3.6 cudnn cupti cudatoolkit=10.0
 
 open your terminal and type `conda create -n your_env_name python=3.6 cudnn cupti cudatoolkit=10.0
 
 ### step 3:
 run `pip install tensorflow-gpu`
+
+Thats it. It will automatically install tensorflow 2.0 gpu version and will be able to detect cudnn and cuda automatically.
